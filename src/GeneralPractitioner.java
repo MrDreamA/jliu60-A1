@@ -37,5 +37,6 @@ public class GeneralPractitioner extends HealthProfessional{
         super.printAllVariables();
         System.out.println("Specialization Type: "+specializationType);
         System.out.println("Degree: "+degree);
+        System.out.println();
     }
 }
