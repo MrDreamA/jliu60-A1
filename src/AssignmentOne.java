@@ -21,11 +21,11 @@ public class AssignmentOne {
 
         // Appoint two times of general practitioners
         AssignmentOne assignmentOne = new AssignmentOne();
-        assignmentOne.createAppointment(generalPractitioner1, "Alice", "1234567890", "10:30");
-        assignmentOne.createAppointment(generalPractitioner2, "Bob", "9876543210", "11:30");
+        assignmentOne.createAppointment(generalPractitioner1, "ShuailunMa", "1234567890", "10:30");
+        assignmentOne.createAppointment(generalPractitioner2, "WenguangZhang", "9876543210", "11:30");
         // Appoint two times of nurse practitioners
-        assignmentOne.createAppointment(nursePractitioner1, "Charlie", "5555555555", "12:30");
-        assignmentOne.createAppointment(nursePractitioner2, "Dave", "9999999999", "13:30");
+        assignmentOne.createAppointment(nursePractitioner1, "ZeshengSu", "5555555555", "12:30");
+        assignmentOne.createAppointment(nursePractitioner2, "ZhiboLiu", "9999999999", "13:30");
         // Print the existing appointments
         assignmentOne.printExistingAppointments();
         // Cancel one of the appointments
